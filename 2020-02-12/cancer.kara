@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlStateMachines version="KaraX 1.0 turingkara">
+    <XmlStateMachine actor="TuringKara" startState="q0">
+        <XmlState finalstate="false" name="q1" x="139.0" y="0.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q8" x="332.0" y="97.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q5" x="312.0" y="246.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q3" x="215.0" y="-65.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q6" x="229.0" y="302.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q0" x="55.0" y="55.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q2" x="198.0" y="81.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q9" x="320.0" y="346.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q4" x="254.0" y="164.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="false" name="q7" x="280.0" y="11.0">
+            <XmlSensors>
+                <XmlSensor name="onOne"/>
+                <XmlSensor name="onZero"/>
+                <XmlSensor name="onTerm"/>
+                <XmlSensor name="onEmpty"/>
+                <XmlSensor name="onLeft"/>
+                <XmlSensor name="onRight"/>
+                <XmlSensor name="onUp"/>
+                <XmlSensor name="onDown"/>
+            </XmlSensors>
+        </XmlState>
+        <XmlState finalstate="true" name="Stop" x="396.0" y="174.0">
+            <XmlSensors/>
+        </XmlState>
+        <XmlTransition from="q1" to="q1">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putOne"/>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q1" to="q2">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putZero"/>
+                <XmlCommand name="moveDown"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q1" to="q3">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveRight"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q8" to="q8">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putOne"/>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q8" to="Stop">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands/>
+        </XmlTransition>
+        <XmlTransition from="q8" to="q2">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putZero"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q5" to="q5">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putZero"/>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q5" to="q6">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="1"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putOne"/>
+                <XmlCommand name="moveUp"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q5" to="q9">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putOne"/>
+                <XmlCommand name="moveRight"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q3" to="q3">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="putZero"/>
+                <XmlCommand name="moveRight"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q3" to="q7">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveDown"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q6" to="q6">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveUp"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q6" to="q0">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveUp"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q0" to="q0">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveRight"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q0" to="q1">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q2" to="q2">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveDown"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q2" to="q4">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveDown"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q9" to="q6">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveUp"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q4" to="q4">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="1"/>
+                <XmlSensorValue name="onZero" value="1"/>
+                <XmlSensorValue name="onTerm" value="1"/>
+                <XmlSensorValue name="onEmpty" value="0"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveRight"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q4" to="q5">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+        <XmlTransition from="q7" to="q8">
+            <XmlSensorValues>
+                <XmlSensorValue name="onOne" value="0"/>
+                <XmlSensorValue name="onZero" value="0"/>
+                <XmlSensorValue name="onTerm" value="0"/>
+                <XmlSensorValue name="onEmpty" value="1"/>
+                <XmlSensorValue name="onLeft" value="0"/>
+                <XmlSensorValue name="onRight" value="0"/>
+                <XmlSensorValue name="onUp" value="0"/>
+                <XmlSensorValue name="onDown" value="0"/>
+            </XmlSensorValues>
+            <XmlCommands>
+                <XmlCommand name="moveLeft"/>
+            </XmlCommands>
+        </XmlTransition>
+    </XmlStateMachine>
+    <XmlSensorDefinition description="one" identifier="onOne" name="onOne"/>
+    <XmlSensorDefinition description="zero" identifier="onZero" name="onZero"/>
+    <XmlSensorDefinition description="terminal symbol" identifier="onTerm" name="onTerm"/>
+    <XmlSensorDefinition description="empty field" identifier="onEmpty" name="onEmpty"/>
+    <XmlSensorDefinition description="" identifier="onLeft" name="onLeft"/>
+    <XmlSensorDefinition description="" identifier="onRight" name="onRight"/>
+    <XmlSensorDefinition description="" identifier="onUp" name="onUp"/>
+    <XmlSensorDefinition description="" identifier="onDown" name="onDown"/>
+</XmlStateMachines>
