@@ -1,0 +1,19 @@
+<!ELEMENT madn (spielfeld, spielerliste)>
+<!ELEMENT spielfeld (feld+)>
+<!ELEMENT feld (start?, ende?, naechste?)>
+<!ATTLIST feld
+    id CDATA #REQUIRED
+>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT ende (#PCDATA)>
+<!ELEMENT naechste (feld+)>
+<!ELEMENT spielerliste (spieler+)>
+<!ELEMENT spieler (name?, farbe?, figurenliste, dran?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT farbe (#PCDATA)>
+<!ELEMENT figurenliste (figur*)>
+<!ELEMENT figur (feld)>
+<!ATTLIST figur
+    id CDATA #REQUIRED
+>
+<!ELEMENT dran EMPTY>
