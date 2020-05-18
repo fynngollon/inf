@@ -1,3 +1,3 @@
 git add .
-git commit -m "Software-Save"
+git commit -m "Uploaded changes [auto-generated | batch file]"
 git push
