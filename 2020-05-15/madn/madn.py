@@ -24,7 +24,7 @@ class Madn(object):
                     figur.setFeld(feld)
 
     def toXML(self):
-        xml = "<madn>" + self.spielfeld.toXML() + "<spielerliste>"
+        xml = "<madn>"
         for i in self.spielerliste:
             xml += i.toXML()
         xml += "</spielerliste></madn>"
@@ -39,9 +39,9 @@ class Madn(object):
         f.close()
         document = parseString(xml)
         madn = document.firstChild
-        spielfeld = madn.getElementsByTagName("spielfeld")[0]
-        self.spielfeld = Spielfeld
-
+        self.spielerliste = []
+        spielerliste = madn.getElementsByTagName('spielerliste')[0]
+        spieler = spielerliste.getElementsByTagName('spieler')
 
 
 
