@@ -28,22 +28,5 @@ class Spieler(object):
             if figur.firstChild != None:
                 feldid = int(figur.firstChild.firstChild.nodeValue)
                 feld = spielfeld.getFeldById(feldid)
-                self.figuren[zaehler].setFeld(feldid)
-            zaehler += 1            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+                self.figuren[zaehler].setFeld(feld)
+            zaehler += 1

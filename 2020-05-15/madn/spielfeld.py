@@ -33,4 +33,7 @@ class Spielfeld(object):
         return xml
 
     def getFeldById(self, feldid):
-        pass
+        for feld in self.felderliste:
+            if feld.id == feldid:
+                return feld
+        return None
