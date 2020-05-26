@@ -1,11 +1,13 @@
 from figur import *
+
+
 class Spieler(object):
     def __init__(self, sid, name, farbe=""):
-        self.id = sid #id und Name hinzugefügt
+        self.id = sid  # id und Name hinzugefügt
         self.name = name
         self.farbe = farbe
-        self.figuren = []   #leere Figurenliste
-        for i in range(4):  #4 Figuren für den Spieler erzeugen
+        self.figuren = []  # leere Figurenliste
+        for i in range(4):  # 4 Figuren für den Spieler erzeugen
             self.figuren.append(Figur(self))
 
     def toXML(self):
@@ -15,6 +17,33 @@ class Spieler(object):
         xml += '<figurenliste>'
         for figur in self.figuren:
             xml += figur.toXML()
-        xml += '</figurenliste></spieler>'
-
+        xml += "</figurenliste>"
+        xml += "</spieler>"
         return xml
+
+    def fromXML(self, figurenliste, spielfeld):
+        figuren = figurenliste.getElementsByTagName('figur')
+        zaehler = 0
+        for figur in figuren:
+            if figur.firstChild != None:
+                feldid = int(figur.firstChild.firstChild.nodeValue)
+                feld = spielfeld.getFeldById(feldid)
+                self.figuren[zaehler].setFeld(feldid)
+            zaehler += 1            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            

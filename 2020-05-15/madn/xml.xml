@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<madn>
+   <spielfeld>
+      <feld id="0">
+         <start>0</start>
+         <feldid>1</feldid>
+      </feld>
+      <feld id="1">
+         <feldid>2</feldid>
+      </feld>
+      <feld id="2">
+         <feldid>3</feldid>
+      </feld>
+      <feld id="3">
+         <feldid>4</feldid>
+      </feld>
+      <feld id="4">
+         <feldid>5</feldid>
+      </feld>
+      <feld id="5">
+         <feldid>6</feldid>
+      </feld>
+      <feld id="6">
+         <feldid>7</feldid>
+      </feld>
+      <feld id="7">
+         <feldid>8</feldid>
+      </feld>
+      <feld id="8">
+         <feldid>9</feldid>
+      </feld>
+      <feld id="9">
+         <feldid>10</feldid>
+         <feldid>44</feldid>
+      </feld>
+      <feld id="10">
+         <start>1</start>
+         <feldid>11</feldid>
+      </feld>
+      <feld id="11">
+         <feldid>12</feldid>
+      </feld>
+      <feld id="12">
+         <feldid>13</feldid>
+      </feld>
+      <feld id="13">
+         <feldid>14</feldid>
+      </feld>
+      <feld id="14">
+         <feldid>15</feldid>
+      </feld>
+      <feld id="15">
+         <feldid>16</feldid>
+      </feld>
+      <feld id="16">
+         <feldid>17</feldid>
+      </feld>
+      <feld id="17">
+         <feldid>18</feldid>
+      </feld>
+      <feld id="18">
+         <feldid>19</feldid>
+      </feld>
+      <feld id="19">
+         <feldid>20</feldid>
+         <feldid>48</feldid>
+      </feld>
+      <feld id="20">
+         <start>2</start>
+         <feldid>21</feldid>
+      </feld>
+      <feld id="21">
+         <feldid>22</feldid>
+      </feld>
+      <feld id="22">
+         <feldid>23</feldid>
+      </feld>
+      <feld id="23">
+         <feldid>24</feldid>
+      </feld>
+      <feld id="24">
+         <feldid>25</feldid>
+      </feld>
+      <feld id="25">
+         <feldid>26</feldid>
+      </feld>
+      <feld id="26">
+         <feldid>27</feldid>
+      </feld>
+      <feld id="27">
+         <feldid>28</feldid>
+      </feld>
+      <feld id="28">
+         <feldid>29</feldid>
+      </feld>
+      <feld id="29">
+         <feldid>30</feldid>
+         <feldid>52</feldid>
+      </feld>
+      <feld id="30">
+         <start>3</start>
+         <feldid>31</feldid>
+      </feld>
+      <feld id="31">
+         <feldid>32</feldid>
+      </feld>
+      <feld id="32">
+         <feldid>33</feldid>
+      </feld>
+      <feld id="33">
+         <feldid>34</feldid>
+      </feld>
+      <feld id="34">
+         <feldid>35</feldid>
+      </feld>
+      <feld id="35">
+         <feldid>36</feldid>
+      </feld>
+      <feld id="36">
+         <feldid>37</feldid>
+      </feld>
+      <feld id="37">
+         <feldid>38</feldid>
+      </feld>
+      <feld id="38">
+         <feldid>39</feldid>
+      </feld>
+      <feld id="39">
+         <feldid>0</feldid>
+         <feldid>40</feldid>
+      </feld>
+      <feld id="40">
+         <ende>0</ende>
+         <feldid>41</feldid>
+      </feld>
+      <feld id="41">
+         <ende>0</ende>
+         <feldid>42</feldid>
+      </feld>
+      <feld id="42">
+         <ende>0</ende>
+         <feldid>43</feldid>
+      </feld>
+      <feld id="43">
+         <ende>0</ende>
+      </feld>
+      <feld id="44">
+         <ende>1</ende>
+         <feldid>45</feldid>
+      </feld>
+      <feld id="45">
+         <ende>1</ende>
+         <feldid>46</feldid>
+      </feld>
+      <feld id="46">
+         <ende>1</ende>
+         <feldid>47</feldid>
+      </feld>
+      <feld id="47">
+         <ende>1</ende>
+      </feld>
+      <feld id="48">
+         <ende>2</ende>
+         <feldid>49</feldid>
+      </feld>
+      <feld id="49">
+         <ende>2</ende>
+         <feldid>50</feldid>
+      </feld>
+      <feld id="50">
+         <ende>2</ende>
+         <feldid>51</feldid>
+      </feld>
+      <feld id="51">
+         <ende>2</ende>
+      </feld>
+      <feld id="52">
+         <ende>3</ende>
+         <feldid>53</feldid>
+      </feld>
+      <feld id="53">
+         <ende>3</ende>
+         <feldid>54</feldid>
+      </feld>
+      <feld id="54">
+         <ende>3</ende>
+         <feldid>55</feldid>
+      </feld>
+      <feld id="55">
+         <ende>3</ende>
+      </feld>
+   </spielfeld>
+   <spielerliste>
+      <spieler id="0">
+         <name>Spieler 0</name>
+         <farbe />
+         <figurenliste>
+            <figur>
+               <feldid>20</feldid>
+            </figur>
+            <figur>
+               <feldid>28</feldid>
+            </figur>
+            <figur>
+               <feldid>29</feldid>
+            </figur>
+            <figur>
+               <feldid>32</feldid>
+            </figur>
+         </figurenliste>
+      </spieler>
+      <spieler id="1">
+         <name>Spieler 1</name>
+         <farbe />
+         <figurenliste>
+            <figur>
+               <feldid>9</feldid>
+            </figur>
+            <figur>
+               <feldid>35</feldid>
+            </figur>
+            <figur>
+               <feldid>31</feldid>
+            </figur>
+            <figur>
+               <feldid>21</feldid>
+            </figur>
+         </figurenliste>
+      </spieler>
+      <spieler id="2">
+         <name>Spieler 2</name>
+         <farbe />
+         <figurenliste>
+            <figur>
+               <feldid>1</feldid>
+            </figur>
+            <figur />
+            <figur />
+            <figur>
+               <feldid>30</feldid>
+            </figur>
+         </figurenliste>
+      </spieler>
+      <spieler id="3">
+         <name>Spieler 3</name>
+         <farbe />
+         <figurenliste>
+            <figur>
+               <feldid>55</feldid>
+            </figur>
+            <figur />
+            <figur />
+            <figur>
+               <feldid>7</feldid>
+            </figur>
+         </figurenliste>
+      </spieler>
+   </spielerliste>
+</madn>
