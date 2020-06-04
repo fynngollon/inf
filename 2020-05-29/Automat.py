@@ -1,4 +1,5 @@
 from xml.dom.minidom import *
+
 class Automat(object):
     def __init__(self, quelltext):
         self.quelltext = quelltext

@@ -14,7 +14,7 @@ class Simulator(object):
         if self.endzustand():
             print("Eingabe akzeptiert.")
         else:
-            print("Falsche Eingabe.")
+            print("Eingabe entspricht nicht den Anforderungen.")
 
     def anfangszustand(self):
         k_initial_liste = self.wurzel.getElementsByTagName("initial")
