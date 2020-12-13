@@ -1,0 +1,6 @@
+B -> bB
+B -> b.B
+B -> b@C
+C -> bC
+C -> b.C
+D -> bD
